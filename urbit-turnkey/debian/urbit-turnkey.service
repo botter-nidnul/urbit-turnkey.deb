@@ -1,0 +1,14 @@
+[Unit]
+Description=Watch for Urbit keyfile and wifi config
+
+[Service]
+Type=simple
+TTYPath=/dev/tty1
+StandardOutput=tty
+StandardError=inherit
+ExecStart=/usr/bin/watch_for_keyfile.sh
+Restart=no
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

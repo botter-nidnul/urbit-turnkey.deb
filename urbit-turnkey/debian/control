@@ -1,0 +1,10 @@
+Source: urbit-turnkey
+Section: custom
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+Maintainer: ~botter-nidnul <botter-nidnul@protonmail.com>
+
+Package: urbit-turnkey
+Architecture: all
+Depends: urbit-service, usbmount, dos2unix
+Description: Urbit turnkey functionality
