@@ -11,8 +11,6 @@ Main() {
 	TestNetwork
 	UpgradeUrbit
 	BootUrbit
-	EnableUrbitService
-	StartUrbitService
 } # Main
 
 CheckForExistingUrbit() {
