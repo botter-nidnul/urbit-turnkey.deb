@@ -6,5 +6,5 @@ Maintainer: ~botter-nidnul <botter-nidnul@protonmail.com>
 
 Package: urbit-turnkey
 Architecture: all
-Depends: urbit-service, usbmount, dos2unix
+Depends: urbit-service, usbmount, dos2unix, fping
 Description: Urbit turnkey functionality
