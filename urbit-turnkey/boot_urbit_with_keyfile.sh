@@ -15,7 +15,8 @@ Main() {
 
 CheckForExistingUrbit() {
 	[[ -f /home/urbit/.urbit_booted ]] && \
-		(echo "Urbit already booted on this device" >&2 ; exit 3)
+		(echo "Urbit already booted on this device" >&2 )
+	exit 3
 } # CheckForExistingUrbit
 
 SetVariablesFromKeyfile() {
@@ -26,7 +27,8 @@ SetVariablesFromKeyfile() {
 
 TestNetwork() {
 	fping urbit.org 2>/dev/null | grep -q alive || \
-		(echo "Unable to boot Urbit successfully, network down" >&2 ; exit 4)
+		(echo "Unable to boot Urbit successfully, network down" >&2 )
+	exit 4
 } # TestNetwork
 
 UpgradeUrbit() {
