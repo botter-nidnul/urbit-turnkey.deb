@@ -5,6 +5,7 @@ Description=Watch for Urbit keyfile and wifi config
 Type=simple
 StandardOutput=journal+console
 StandardError=inherit
+ExecStartPre=/bin/sleep 10
 ExecStart=/usr/bin/watch_for_keyfile.sh
 Restart=no
 KillMode=process
