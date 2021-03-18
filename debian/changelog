@@ -1,0 +1,14 @@
+urbit-turnkey (1.0.1) stable; urgency=medium
+
+  * only run EnableUrbitService and StartUrbitService once
+  * actually exit on pre-boot test failures
+  * add fping dependency, for non-Armbian distros.
+  * sleep for 10 seconds after boot, to allow network to be connected
+
+ -- ~botter-nidnul <botter-nidnul@protonmail.com>  Wed, 17 Mar 2021 20:29:18 -0500
+
+urbit-turnkey (1.0.0) stable; urgency=medium
+
+  * Initial release
+
+ -- ~botter-nidnul <botter-nidnul@protonmail.com>  Mon, 8 Mar 2021 12:00:00 -0600
