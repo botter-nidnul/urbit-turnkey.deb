@@ -1,3 +1,9 @@
+urbit-turnkey (1.0.2) stable; urgency=medium
+
+  * fix CheckForExistingUrbit and SetVariablesFromKeyfile tests
+
+ -- ~botter-nidnul <botter-nidnul@protonmail.com>  Wed, 6 May 2021 12:00:00 -0500
+
 urbit-turnkey (1.0.1) stable; urgency=medium
 
   * only run EnableUrbitService and StartUrbitService once
